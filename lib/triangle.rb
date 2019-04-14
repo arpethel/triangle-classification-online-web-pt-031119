@@ -14,11 +14,6 @@ class Triangle
     else
       @triangle = "valid"
     end
-
-    # @triangle = "invalid" if @a + @b <= @c || @a + @c <= @b || @b + @c <= @a
-    # @triangle = "invalid" if @a == 0 || @b == 0 || @c == 0
-    # @triangle = "valid"
-
   end
 
   def kind
